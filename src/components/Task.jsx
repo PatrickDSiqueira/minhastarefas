@@ -12,7 +12,7 @@ const Task = ({task, handleTaskClick, handleTaskDeletion}) =>{
         </div>
        <div className="button-container">
             <button className="remove-task-button" onClick={()=>handleTaskDeletion(task.id)}>
-                <CgClose />
+                {/* <CgClose /> */} X
             </button>
        </div>
     </div>;
