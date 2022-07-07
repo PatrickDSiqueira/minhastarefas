@@ -4,6 +4,8 @@ import AddTask from "./components/AddTask";
 import Tasks from "./components/Tasks";
 import  {v4 as uuidv4} from 'uuid';
 import Header from "./components/Header";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 
 const App = () =>{
   const [tasks, setTasks]=useState([
@@ -43,14 +45,27 @@ const handleTaskDeletion = (taskId) => {
   const newTasks = tasks.filter(task => task.id !== taskId)
   setTasks(newTasks);
 }
-
-  return <>
-  <div className="container">
-  <Header />
+const root = ReactDOM.createRoot(
+  document.getElementById("root")
+);
+const Home = () => ((
+    <>
     <AddTask handleTaskAddition ={handleTaskAddition}/>
-    {<Tasks tasks = {tasks} handleTaskClick = {handleTaskClick} handleTaskDeletion={handleTaskDeletion}/>}
-  </div>
-  </>
+              {<Tasks tasks = {tasks} handleTaskClick = {handleTaskClick} handleTaskDeletion={handleTaskDeletion}/>}
+    </>
+  )
+)
+root.render(
+  <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route
+      path="/" element = {<Home />}
+    >
+      </Route>
+    </Routes>
+  </BrowserRouter>
+  )
 }
 
 export default App;
