@@ -6,6 +6,7 @@ import  {v4 as uuidv4} from 'uuid';
 import Header from "./components/Header";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import ReactDOM from "react-dom/client";
+import TaskDetails from "./components/TaskDetails";
 
 const App = () =>{
   const [tasks, setTasks]=useState([
@@ -60,9 +61,12 @@ root.render(
     <Header />
     <Routes>
       <Route
-      path="/" element = {<Home />}
-    >
-      </Route>
+      path="/" exact element = {<Home/>}
+    />
+    <Route
+    path="/:taskTitle"
+    exact
+    element = {<TaskDetails/>}/>
     </Routes>
   </BrowserRouter>
   )
