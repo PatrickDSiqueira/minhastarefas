@@ -1,10 +1,42 @@
 
 
-<h1 align = "center"> Minhas Tarefas</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![cover repository](https://raw.githubusercontent.com/PatrickDSiqueira/minhastarefas/3bb9885e9bc69f9a47277bb20276bd0e3e64a53c/src/cover.PNG)
+<h1 align = "center" > <b>Minhas Tarefas</b></h1>
 
-## Available Scripts
+<div align = "right">
+
+![](https://img.shields.io/github/stars/PatrickDSiqueira/minhastarefas)
+![](https://img.shields.io/github/forks/PatrickDSiqueira/minhastarefas)
+![](https://img.shields.io/badge/react-18.2.0-green)
+![](https://img.shields.io/badge/axios-0.27.2-green)
+![](https://img.shields.io/badge/uuid-8.3.2-green)
+
+</div>
+
+## 📃 Descrição do Projeto 
+</br>
+O minhas tarefas é um sistema gerenciador de tarefas. Esse web app permite a adição e exclusão de tarefas de maneira simples e rápida, assim como a marcação de concluído.
+</br>
+</br>
+
+
+## 🚧 Projeto em construção 
+</br>
+
+## 🔧 Funcionalidades do projeto 
+</br>
+
+### - `Adicionar tarefa` : 
+
+### - `Excluir tarefa` :
+
+### - `Marcar tarefa como concluído` :
+
+### - `Ver detalhes da tarefa` : 
+
+
+
 
 In the project directory, you can run:
 
