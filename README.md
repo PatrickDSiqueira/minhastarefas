@@ -2,6 +2,9 @@
 
 
 ![cover repository](https://raw.githubusercontent.com/PatrickDSiqueira/minhastarefas/3bb9885e9bc69f9a47277bb20276bd0e3e64a53c/src/cover.PNG)
+<br>
+<br>
+
 <h1 align = "center" > <b>Minhas Tarefas</b></h1>
 
 <div align = "right">
@@ -13,8 +16,10 @@
 ![](https://img.shields.io/badge/uuid-8.3.2-green)
 
 </div>
+<br>
 
-## 📃 Descrição do Projeto 
+
+## 📃 Descrição do projeto 
 </br>
 O minhas tarefas é um sistema gerenciador de tarefas. Esse web app permite a adição e exclusão de tarefas de maneira simples e rápida, assim como a marcação de concluído.
 </br>
@@ -27,78 +32,104 @@ O minhas tarefas é um sistema gerenciador de tarefas. Esse web app permite a ad
 ## 🔧 Funcionalidades do projeto 
 </br>
 
-### - `Adicionar tarefa` : 
+<div >
 
-### - `Excluir tarefa` :
+ ### - Adicionar tarefa : 
+![](https://raw.githubusercontent.com/PatrickDSiqueira/minhastarefas/8c9cff70704d0a8b86fe5e02f4cd894bd021f62a/src/adicionarTarefa_AdobeExpress.gif)
 
-### - `Marcar tarefa como concluído` :
+<br>
 
-### - `Ver detalhes da tarefa` : 
+### - Excluir tarefa :
+
+![](https://raw.githubusercontent.com/PatrickDSiqueira/minhastarefas/8c9cff70704d0a8b86fe5e02f4cd894bd021f62a/src/excluirTarefa_AdobeExpress.gif)
+<br>
+
+### - Marcar tarefa como concluído :
 
 
 
+![](https://raw.githubusercontent.com/PatrickDSiqueira/minhastarefas/8c9cff70704d0a8b86fe5e02f4cd894bd021f62a/src/marcarConcluido_AdobeExpress.gif)
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+  ### - Ver detalhes da tarefa : 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![](https://raw.githubusercontent.com/PatrickDSiqueira/minhastarefas/8c9cff70704d0a8b86fe5e02f4cd894bd021f62a/src/verDetalhes_AdobeExpress.gif)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Acesso ao projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Você pode encontrar o [**código fonte**](https://github.com/PatrickDSiqueira/minhastarefas) deste projeto ou [**baixá-lo**](https://github.com/PatrickDSiqueira/minhastarefas).
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Abrir e rodar o projeto 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Após copiar o endereço do repositório do gitHub, na sua tela de comando rode o seguinte comando:
+    
+    git clone 'https://github.com/PatrickDSiqueira/minhastarefas'
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Após isso rode :
 
-## Learn More
+    npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Tecnologias utilizadas
 
-### Code Splitting
+<br>
+<div style align ="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://img.shields.io/badge/-react-000?style=for-the-badge&logo=react&logoColor=white)
+![](https://img.shields.io/badge/-javascript-FFFF32?style=for-the-badge&logo=javascript&logoColor=white)
+![](https://img.shields.io/badge/-uuid-blue?style=for-the-badge&logo=world&logoColor=white) 
+![](https://img.shields.io/badge/-uuid-purple?style=for-the-badge&logo=axios&logoColor=white)
+</div>
+<br>
 
-### Analyzing the Bundle Size
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!--  Como inserir avater do github
 
-### Making a Progressive Web App
+ | [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| :---: | :---: | :---: |  -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👨🏽‍💻 Autor
 
-### Advanced Configuration
+<a href="https://linktr.ee/patrick.siqueira">
+<div  align ="center" >
+<img  style="background-color:blue; border-radius:40%; width : 300px; align :center" src ="https://avatars.githubusercontent.com/u/97417553?s=400&u=44a7b581734ae1eae7b5e6f757b53d77cc3316aa&v=4"> <br><p style="font-size:18px" ><b>Patrick Siqueira</b></p>
+</div>
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
+<br>
 
-### Deployment
+## 📩 Deixe o seu feedBack :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
+  
+Encontrou algo que não está funcionando corretamente?  Algo que faltou? Uma evolução ? Algum complemento ? .. Deixe seu feedBack, vai ser ótimo te ouvir:
 
-### `npm run build` fails to minify
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe0X0D7jhd8E5txlW69WCqxZFgGhguLiK6Oi4Rsip8Na4bgcg/viewform?usp=sf_link">
+<br>
+<p align = "center">📩 Clique Aqui</p>
+</a>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+<div align = "right">
+
+Desenvolvido por [Patrick Siqueira](https://linktr.ee/patrick.siqueira) 💙
+</div>
